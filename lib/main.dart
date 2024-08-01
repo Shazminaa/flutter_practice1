@@ -9,10 +9,16 @@ void main() {
           backgroundColor: Colors.blue.shade200,
           title: const Text('Dashboard'),
         ),
-        body: Container(
-          height: 100,
-          width: 100,
+        body: Center(
+          child: Container(
+          height: 300,
+          width: 300,
           color: Color.fromARGB(255, 187, 113, 138),
+          child: Center(
+            child: Text('Hey its my first app'),
+          ),
+          )
+          
         )
       ),
     ),
