@@ -10,14 +10,40 @@ void main() {
           title: const Text('Dashboard'),
         ),
         body: Column(
-          children: const [
-            Center(
-              child: Text('Center Widget'),
+          children: [
+            Container(
+              height: 100,
+              width: 100,
+              color: const Color.fromARGB(255, 223, 118, 153),
+              child: const Center(
+                child: Text('Container'),
+              ),
             ),
-            Text('First Widget'),
-            Text('Second Widget'),
-            Text('Third Widget'),
-            Text('Fourth Widget'),
+            const SizedBox(
+              height: 15,
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: const Color.fromARGB(255, 154, 84, 107),
+              child: const Center(
+                child: Text('Container'),
+              ),
+            ),
+            const SizedBox(
+              height: 15,
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: const Color.fromARGB(255, 112, 35, 61),
+              child: const Center(
+                child: Text('Container'),
+              ),
+            ),
+            const SizedBox(
+              height: 15,
+            ),
           ],
         ),
       ),
