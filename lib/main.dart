@@ -7,10 +7,15 @@ void main() {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.blue.shade200,
-          title: const Text('Dashboard'),
+          title: const Text('Dashboard', style: TextStyle(fontSize: 28, fontFamily: 'Pacifico'),),
         ),
         body: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
+            Text('Its my First App', style: TextStyle(fontSize: 40,decoration: TextDecoration.underline, fontFamily: 'Pacifico'),),
+             const SizedBox(
+              height: 40,
+            ),
             Container(
               height: 100,
               width: 100,
